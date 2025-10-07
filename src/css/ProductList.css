@@ -1,0 +1,8 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    /* Üstteki 120px padding'i sildik */
+    justify-content: center;
+}

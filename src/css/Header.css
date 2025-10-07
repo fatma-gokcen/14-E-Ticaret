@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: rgb(9, 25, 91);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input:focus {
+    border-color: teal;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Sepet ve mini sepeti kapsayan yeni div */
+.cart-and-preview-container {
+    position: relative;
+    /* Bu container'ı sağa hizalar */
+    margin-right: 80px;
+}
+
+/* Sepet ikonu ve ürün sayısı container'ı */
+.basket-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.basket-icon {
+    font-size: 25px;
+    color: white;
+}
+
+.item-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid white;
+}
+
+.category-dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.sort-dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.mini-cart-preview {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    /* Sepeti sağa hizalar */
+    width: 300px;
+    max-height: 400px;
+    /* Maksimum yükseklik belirler */
+    overflow-y: auto;
+    /* Dikey kaydırma çubuğunu ekler */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    z-index: 100;
+}
+
+.mini-cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.mini-cart-item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 10px;
+    flex-shrink: 0;
+    /* Görüntünün küçülmesini engeller */
+}
+
+.mini-cart-item div {
+    /* Başlık ve miktar için div */
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-cart-item-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    white-space: normal;
+    /* Metnin yeni satıra geçmesini sağlar */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Taşma durumunda ... gösterir */
+}
+
+.mini-cart-item-quantity {
+    font-size: 12px;
+    color: #555;
+}
