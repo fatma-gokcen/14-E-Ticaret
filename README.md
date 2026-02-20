@@ -1,9 +1,14 @@
 # 🛒 React E-Commerce Application
+
+![React](https://img.shields.io/badge/React-18-blue)
+![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple)
+![Vite](https://img.shields.io/badge/Vite-Build%20Tool-yellow)
+![Live Demo](https://img.shields.io/badge/Live-Demo-green)
 Live Demo: https://14-e-ticaret.vercel.app/
 ## 🚀 Project Overview
 
-This is a fully functional e-commerce web application built with React and Redux Toolkit.  
-The project integrates a real external REST API to dynamically fetch product data and implements global state management for cart functionality.
+A production-ready e-commerce web application built with React and Redux Toolkit. 
+The application integrates an external REST API to dynamically fetch product data and demonstrates global state management, dynamic routing, and client-side data manipulation.
 
 ## ✨ Features
 
