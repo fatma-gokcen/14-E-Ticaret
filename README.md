@@ -1,7 +1,5 @@
 # 🛒 React E-Commerce Application
-
-Live Demo: https://14-e-ticaret-xxxxx.vercel.app
-
+Live Demo: https://14-e-ticaret.vercel.app/
 ## 🚀 Project Overview
 
 This is a fully functional e-commerce web application built with React and Redux Toolkit.  
