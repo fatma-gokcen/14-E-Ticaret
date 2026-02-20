@@ -4,7 +4,9 @@
 ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple)
 ![Vite](https://img.shields.io/badge/Vite-Build%20Tool-yellow)
 ![Live Demo](https://img.shields.io/badge/Live-Demo-green)
+
 Live Demo: https://14-e-ticaret.vercel.app/
+
 ## 🚀 Project Overview
 
 A production-ready e-commerce web application built with React and Redux Toolkit. 
